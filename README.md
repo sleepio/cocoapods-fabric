@@ -3,7 +3,7 @@ Private Cocoapod for installing the Crashlytics and Fabric Frameworks. Plist inc
 
 To install add
 ```
-'Crashlytics', :git => "https://github.com/sleepio/cocoapods-fabric.git"
+'Fabric', :git => "https://github.com/sleepio/cocoapods-fabric.git"
 
 ```
 to your Podfile and
