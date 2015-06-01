@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   }
   s.source       = { :git => "https://github.com/sleepio/cocoapods-fabric.git", :tag => "0.0.1" }
   s.requires_arc = true
-  s.ios.vendored_frameworks = 'Frameworks/Crashlytics.framework', 'Frameworks/Fabric.framework'
+  s.ios.vendored_frameworks = 'Crashlytics.framework', 'Fabric.framework'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' }
   
 end
