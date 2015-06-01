@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Fabric"
-  s.version      = "0.0.1"
+  s.version      = "1.2.5"
   s.summary      = "A quick test of a private cocoapod for Crashlytics and Fabric"
   s.author       = 'Fabric' 
   s.homepage     = "https://github.com/sleepio/cocoapods-fabric.git"
