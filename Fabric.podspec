@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.default_subspec = "Default"
 
   s.subspec "Default" do |default|
-    default.vendored_frameworks = "Fabric.framework"
-    default.public_header_files = "Fabric.framework/Headers/*.h"
+    core.vendored_frameworks = "Fabric.framework"
+    core.public_header_files = "Fabric.framework/Headers/*.h"
   end
 
   s.subspec "Crashlytics" do |crashlytics|
