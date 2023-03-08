@@ -1,0 +1,8 @@
+# Assign package management files to appropriate teams 
+requirements.txt @killian90
+requirements.in @killian90
+requirements-*.txt @killian90
+Dockerfile @killian90
+package.json @killian90
+yarn.lock @killian90
+Pipfile @killian90
